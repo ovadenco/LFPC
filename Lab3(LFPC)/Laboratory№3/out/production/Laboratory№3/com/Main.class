@@ -1,0 +1,69 @@
+Êşº¾   4
+ I   
+  ‘ ’
+  “
+  ”	 H •
+  –
+ 3 —
+  ˜
+ 3 ™
+ 3 š › œ
+  
+  
+ 3 Ÿ
+ H   ¡
+  ¢
+ H £
+ H ¤	 H ¥ ¦
+ § ¨
+ 3 ©
+ H ª	 H «
+ H ¬
+ 3 ­ ® ¯ ® °	 ± ²
+ ³ ´
+ H µ
+  ¶
+  · ¸
+  ¹ º
+ ) 
+ ) »
+ ) ¼
+ ) ½
+  ¾
+  ¿
+  À Á
+  Â Ã Ä
+ Å Æ
+ 3 Ç
+ È É
+ 3 Ê
+ 3 Ë Ì
+ § Í	 H Î
+ § Ï
+ E Ğ
+ E Ñ Ò
+  Ó
+ 3 Ô
+  Õ
+ E Ö ×
+ E 
+ 3  Ø Ù ChomskyRule Ljava/util/HashMap; 	Signature <Ljava/util/HashMap<Ljava/lang/Character;Ljava/lang/String;>; grammar Ljava/util/ArrayList; )Ljava/util/ArrayList<Ljava/lang/String;>; keys alphabet <init> ()V Code LineNumberTable LocalVariableTable this 
+Lcom/Main; main ([Ljava/lang/String;)V eps C i I first last str Ljava/lang/String; args [Ljava/lang/String; path file Ljava/io/File; scanner Ljava/util/Scanner; StackMapTable ›  ’ Ú 
+Exceptions Û EpsilonElimination (C)V epsFirst epsStr num newEps NumContains '(Ljava/lang/String;Ljava/lang/String;)I rep split e UnitProduction (CC)V KeyNotation splStr spl k LocalVariableTypeTable Ã ChomskyNormalForm alpha low j gr CreateAlphabet <clinit> 
+SourceFile 	Main.java S T HF:\USERS\admin\Ğ Ğ°Ğ±Ğ¾Ñ‡Ğ¸Ğ¹ ÑÑ‚Ğ¾Ğ»\Ğ Ğ°Ğ±Ğ¾Ñ‚Ñ‹\Lab3(LFPC)\Lab3.txt java/io/File S Ü java/util/Scanner S İ Ş ß N O à á â ã ä T å æ ç è java/lang/String ? é ê ë ì í ã r s [A-Z]->[A-Z] î ï } ~  s Q O S ğ ñ ò é ã Š T R O … T ó ô Ú õ ß ö ÷ ø ù ú û ü Ü x y ı ï ş ÿ    java/lang/StringBuilder ñ á æ { ï ->	 java/util/ArrayList [^A-Z]*
+ S ß (?:([a-z])|([A-Z]))* J K ã ç java/lang/CharSequence í è java/util/HashMap com/Main java/lang/Object java/util/Iterator java/io/FileNotFoundException (Ljava/lang/String;)V (Ljava/io/File;)V hasNextLine ()Z nextLine ()Ljava/lang/String; add (Ljava/lang/Object;)Z close size ()I get (I)Ljava/lang/Object; contains (Ljava/lang/CharSequence;)Z charAt (I)C remove matches (Ljava/lang/String;)Z java/lang/Character toString (C)Ljava/lang/String; iterator ()Ljava/util/Iterator; hasNext next ()Ljava/lang/Object; java/lang/System out Ljava/io/PrintStream; java/io/PrintStream println 
+startsWith 	substring (I)Ljava/lang/String; 
+replaceAll 8(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String; append (C)Ljava/lang/StringBuilder; -(Ljava/lang/String;)Ljava/lang/StringBuilder; length '(Ljava/lang/String;)[Ljava/lang/String; endsWith concat &(Ljava/lang/String;)Ljava/lang/String; java/util/Arrays asList %([Ljava/lang/Object;)Ljava/util/List; (Ljava/util/Collection;)V java/util/Collections 	singleton #(Ljava/lang/Object;)Ljava/util/Set; 	removeAll (Ljava/util/Collection;)Z isEmpty isLowerCase (C)Z valueOf (C)Ljava/lang/Character; containsKey &(Ljava/lang/Object;)Ljava/lang/Object; replace D(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String; (CC)Ljava/lang/String; put 8(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object; ! H I     J K  L    M  N O  L    P  Q O  L    P  R O  L    P 	  S T  U   /     *· ±    V        W        X Y   	 Z [  U  ë    ‰L» Y+· M» Y,· N-¶ ™ ² -¶ 	¶ 
+W§ÿî-¶ 6² ¶ ¢ A² ¶ À ¶ ™ (² ¶ À ¶ 6² ² ¶ ¶ W¸ „§ÿº6² ¶ ¢ T² ¶ À ¶ ™ ;² ¶ À ¶ 6² ¶ À ¶ 6² ² ¶ ¶ W¸ „§ÿ§S¸ ² ¶ 
+W6² ¶ ¢ 3² ² ¶ À ¶ ¸ ¶ š ² ² ¶ ¶ W„§ÿÈ¸ 6² ¶ ¢ )² ² ¶ ¶ ™ ² ² ¶ ¶ W„§ÿÒ¸ ² ¶ :¹   ™ ¹ ! À :² "¶ #§ÿâ±    V    #            *  .  <  O  `  o  t  z  ˆ  ›  ¬  ½   Ì ! Ó  Ù $ Ş % ç & õ ' ( &% +( ,6 -G .V ,\ 1_ 2} 3… 4ˆ 5 W   z  `  \ ]  1 I ^ _  ¬ ' ` ]  ½  a ]  } \ ^ _  ê ; ^ _ + 1 ^ _ }  b c   ‰ d e   † f c  } g h  t i j  k   < ş  l m nü û Bú ü û Uú ü 4ú ü *ú ü 
+ oú   p     q 	 r s  U        Ñ<² ¶ ¢ ƒ² ¶ À ¸ ¶ ™ i² ¶ À M,¸ ¸ $>,¸ ¶ %™ 9¤ E,¶ &:¸ '¶ (:² » )Y· *¶ +¶ ,¶ -¶ 
+W§ ² ,¸ '¶ (¶ 
+W„§ÿy<² ¶ ¢ ;² ¶ À ¶ .  $² ¶ À ¶ =² ² ¶ ¶ W¸ „§ÿÁ±    V   N    7  8   9 + : 4 ; ? = D > K ? X @ r A u D † 7 Œ G ˜ H © I ¸ J Æ K Ê G Ğ N W   H  K ' t c  + [ u c  4 R v _   Š ^ _  ¸  w ]   B ^ _    Ñ \ ]   k    ü ı r lù ú ü ;ú  	 x y  U   j     *+¶ /M*+¶ 0™ ,¾¬,¾d¬    V       P  Q  R W         b c      z c    { e  k    ü  | 	 } ~  U   ³     S=² ¶ ¢ I² ¶ À ¶   1² ¸ » )Y· *1¶ ,² ¶ À ¶ &¶ ,¶ -¶ 2¶ 
+W„§ÿ³±    V       V  W  X L V R [ W       P ^ _    S ` ]     S a ]  k    ü û Iú  	  s  U  +     <² ¶ ¢ ƒ² ¶ À ¶   k» 3Y² ¶ À ¶ &4¶ /¸ 5· 6M,'¸ 7¶ 8W,¶ N-¹   ™ 5-¹ ! À :,¶ 9š  ² ¶ š ² ¶ 
+W¶ ¸ §ÿÈ„§ÿy±    V   .    ]  _  ` < a F b _ c q d z e ƒ g † ] Œ j W   *  _ $ € c  < J  O   Š ^ _     ‚ ]   ƒ     < J  P  k    ü ı H „ o7ù ú  	 … T  U  ¶     ì;² ¶ ¢ â² ¶ À L+¶ &M,:¶ ™ Â>,¶ .¢ ¸,¶ ¸ ;™ §,¶ .¤ Ÿ,¶ 6² <¸ =¶ >™ $² +¸ ² <¸ =¶ ?À @¶ A¶ 
+W§ X² ¶ À :² ¶ BW² » )Y· *1¶ ,¶ +¶ -¶ 2¶ 
+W² +¶ ¶ C¶ 
+W² <¸ =¶ DW² ² ¶ ¶ W„ ÿ„§ÿF„ §ÿ±    V   N    l  m  n  o & p 0 q C r J s X t y w … x  y ­ z À { Î } Ü ~ ß p å l ë ƒ W   >  … I † c  J • ‡ ]  ( ½ ˆ _   Î ‰ c   È b c   é ^ _   k     ü ş % l lü Pû Tú ø ú  	 Š T  U   b     A;Z£ ² ¸ ¶ 
+W`’;§ÿê±    V       … 	 †  …  ˆ W       ^ ]   k   	 ü ú   ‹ T  U   M      )» EY· F³ <» 3Y· G³ » 3Y· G³ » 3Y· G³ ±    V        
+ 	  
+    Œ    
